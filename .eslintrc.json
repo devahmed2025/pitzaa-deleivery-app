@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended"
+  ],
+  "rules": {
+    "react/prop-types": "off", // 👈 Disable prop-types validation
+    "no-unused-vars": "warn", // 👈 Keep unused vars as warnings
+    "react/jsx-key": "error", // 👈 Keep key requirement as error
+    "react/jsx-no-undef": "error" // 👈 Keep undefined component check
+  }
+}
